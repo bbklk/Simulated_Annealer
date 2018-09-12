@@ -7,9 +7,9 @@ TARGET_WIDTH = 2 * UNIT_SIZE
 path = "/Users/bbklk/Desktop/Hayes/data/gif"
 images = [] 
 for root, dirs, files in os.walk(path):     
-    for f in files :
+    for f in files:
         images.append(f)
-print len(images)
+print(len(images))
 for i in range(len(images)/2): 
     imagefile = []
     j = 0
